@@ -7,26 +7,53 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Switcher de tema -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <span class="theme-text">Dark Mode</span>
+    </div>
+    
     <div class="container">
         <header>
             <h1 id="title">Customer Satisfaction Survey</h1>
             <p id="description">We value your feedback to help us improve our services</p>
         </header>
 
+        <!-- Barra de progreso -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="progress-text">0% completed</span>
+        </div>
+
+        <!-- Formulario -->
         <form id="survey-form">
             <div class="form-group">
                 <label id="name-label" for="name">Full Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <span class="validation-icon valid">✓</span>
+                <span class="validation-icon invalid">✗</span>
+                <span class="error-message"></span>
             </div>
 
             <div class="form-group">
                 <label id="email-label" for="email">Email Address</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <span class="validation-icon valid">✓</span>
+                <span class="validation-icon invalid">✗</span>
+                <span class="error-message"></span>
             </div>
 
             <div class="form-group">
                 <label id="number-label" for="number">Age <span class="optional">(optional)</span></label>
                 <input type="number" id="number" name="age" min="13" max="120" placeholder="Enter your age">
+                <span class="validation-icon valid">✓</span>
+                <span class="validation-icon invalid">✗</span>
+                <span class="error-message"></span>
             </div>
 
             <div class="form-group">
@@ -39,6 +66,9 @@
                     <option value="dissatisfied">Dissatisfied</option>
                     <option value="very-dissatisfied">Very Dissatisfied</option>
                 </select>
+                <span class="validation-icon valid">✓</span>
+                <span class="validation-icon invalid">✗</span>
+                <span class="error-message"></span>
             </div>
 
             <div class="form-group">
@@ -80,13 +110,19 @@
             <div class="form-group">
                 <label for="comments">Additional comments</label>
                 <textarea id="comments" name="comments" placeholder="Enter your feedback here..."></textarea>
+                <div class="char-count">0/500 characters</div>
             </div>
 
             <button type="submit" id="submit">Submit Survey</button>
         </form>
     </div>
+    
+    <!-- Elementos decorativos -->
     <div class="decorative-circle circle-1"></div>
     <div class="decorative-circle circle-2"></div>
     <div class="decorative-circle circle-3"></div>
+    
+    <!-- Script de funcionalidad -->
+    <script src="script.js"></script>
 </body>
 </html>

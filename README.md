@@ -57,21 +57,21 @@ A modern, responsive survey form with elegant design and smooth user experience
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Survey Form web][product-web]](https://example.com)
+[![Survey Form Screenshot][product-screenshot]](https://example.com)
 
 
-This **Survey Form Certification** project transforms the traditional survey experience into an engaging user interface. Originally developed as a FreeCodeCamp project, I've enhanced it with:
+A modern, responsive survey form built as part of FreeCodeCamp's Responsive Web Design Certification. This project demonstrates advanced form design principles with dark/light mode, real-time validation, and progress tracking.
 
-- Modern Design System - Clean, professional appearance with harmonious color scheme
-- Responsive Layout - Adapts seamlessly to all device sizes
-- Enhanced User Experience - Smooth animations and intuitive form interactions
+- Modern UI Design with smooth animations and professional styling
+- Fully Responsive layout that works on all device sizes
 
 **Key Features:**
 
-- Professional UI Design - Elegant form controls with consistent styling
-- Built-in Validation - HTML5 validation with visual feedback
-- Smooth Animations - Pleasant hover, focus, and transition effects
-- Custom Form Elements - Styled radio buttons, checkboxes, and dropdowns
+ - Dark/Light Mode Toggle with system preference detection and localStorage persistence
+ - Real-time Progress Tracking that monitors 5 required fields with visual progress bar
+ - Smart Validation with instant feedback and error messages for all field types
+ - Smooth Animations - Pleasant hover, focus, and transition effects
+
 
 
 This project demonstrates how to create professional survey forms with modern web technologies
@@ -82,9 +82,10 @@ This project demonstrates how to create professional survey forms with modern we
 
 ### Built With
 
-* [![HTML5][HTML5-shield]][HTML5-url]
-* [![CSS3][CSS3-shield]][CSS3-url]
-* [![Inter Font][Inter-shield]][Inter-url]
+[![HTML5][HTML5-shield]][HTML5-url]
+[![CSS3][CSS3-shield]][CSS3-url]
+[![JavaScript][JavaScript-shield]][JavaScript-url]
+[![CSS][CSS-shield]][CSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,46 +173,59 @@ Explore the survey form's interactive features:
   - Desktop: Optimal form width and spacing
   - Tablet: Adjusted padding and font sizes
   - Mobile: Stacked layout with touch-friendly controls
-    
+
+6. **Dark/Light mode**
+  - Toggle between themes using the switch in the top-right corner
+
+7. **Progess Tracking**
+  - Real-time progress bar shows completion percentage
+  - Visual feedback indicates completed and pending sections
+
+8. **Interactive Features**
+  - Real-time validation: Immediate feedback with ✓/✗ icons
+  - Character counter: Live count for comments textarea
+  - Error highlighting: Clear visual indication of invalid fields
+  - Success confirmation: animated submission process with completion message
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ]  **UI/UX Enhancements**
+- [x]  **UI/UX Enhancements**
   - [x]  Modern color scheme and styling
-  - [ ]  Dark/light mode toggle
-  - [ ]  Multi-step form progression
-  - [ ]  Real-time validation feedback
-  - [ ]  Field transition animations
-  - [ ]  Micro-interactions for form controls
+  - [x]  Dark/light mode toggle
+  - [x]  Real-time validation feedback
+  - [x]  Field transition animations
+  - [x]  Micro-interactions for form controls
 - [ ]  **Core Functionality**
   - [x]  Basic HTML5 form validation
-  - [ ]  Real-time validation with visual feedback
+  - [x]  Real-time validation with visual feedback
   - [x]  Fully responsive layout
   - [ ]  Progressive form autosave
   - [ ]  Form data export functionality
 - [ ]  **User Experience**
   - [ ]  Multi-step progress indicator
-  - [ ]  Context-aware error messages
+  - [x]  Context-aware error messages
   - [ ]  Smart field suggestions
   - [x]  Keyboard navigation support
-  - [ ]  Character counters for text fields
+  - [x]  Character counters for text fields
   - [ ]  Form saving/resume functionality
 - [ ]  **Technical Improvements**
-  - [ ]  User preference persistence (localStorage)
+  - [x]  User preference persistence (localStorage)
   - [ ]  Backend API integration
   - [ ]  Jest unit test suite
   - [ ]  Performance benchmarking
-  - [ ]  Cross-browser compatibility testing
-  - [ ]  Accessibility audit compliance
+  - [x]  Cross-browser compatibility testing
+  - [x]  Accessibility audit compliance
 - [ ]  **Additional Features**
   - [ ]  Multi-language support
   - [ ]  Form analytics tracking
   - [ ]  Custom form theme builder
   - [ ]  Form template system
   - [ ]  Response data visualization
+
+
 
 See the [open issues](https://github.com/Alanordinola/SurveyFormCertification/issues) for a full list of proposed features (and known issues).
 
@@ -288,10 +302,14 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 [license-url]: https://github.com/Alanordinola/SurveyFormCertification/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
 [linkedin-url]: https://www.linkedin.com/in/alan-ordinola-10026a196/
-[product-web]: images/web.gif
+[product-screenshot]: images/screenshot.png
 [HTML5-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS3-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Inter-shield]: https://img.shields.io/badge/Inter-000000?style=for-the-badge&logo=google-fonts&logoColor=white
 [Inter-url]: https://rsms.me/inter/
+[JavaScript-shield]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[CSS-shield]: https://img.shields.io/badge/CSS-FF6B6B?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
