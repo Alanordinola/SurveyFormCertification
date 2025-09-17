@@ -57,7 +57,7 @@ A modern, responsive survey form with elegant design and smooth user experience
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Survey Form Screenshot][product-screenshot]](https://example.com)
+[![Survey Form Web][product-web]](https://example.com)
 
 
 A modern, responsive survey form built as part of FreeCodeCamp's Responsive Web Design Certification. This project demonstrates advanced form design principles with dark/light mode, real-time validation, and progress tracking.
@@ -302,7 +302,7 @@ Hecho con ❤️ para el [curso de freeCodeCamp](https://www.freecodecamp.org/le
 [license-url]: https://github.com/Alanordinola/SurveyFormCertification/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
 [linkedin-url]: https://www.linkedin.com/in/alan-ordinola-10026a196/
-[product-screenshot]: images/screenshot.png
+[product-web]: images/web.gif
 [HTML5-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS3-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
